@@ -53,3 +53,17 @@ footer{
   color: $grayLight;
   margin-bottom: 20px;
 }
+
+@media print{
+  .container{
+    margin-top: 0px !important;
+  }
+
+  footer{
+    display: none;
+  }
+
+  .btn{
+    display: none;
+  }
+}
