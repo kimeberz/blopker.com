@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#/bin/bash
 
 PROJECT="kimboux"
 DIR="dev"
@@ -8,4 +8,4 @@ if [[ $1 = "pro" ]]; then
 fi
 
 yeoman build
-rsync -avc dist/* kim@blopker.com:public/$DIR
+rsync -avc dist/* kim@blopker.com:public/$DIR/
