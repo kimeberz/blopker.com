@@ -1,17 +1,32 @@
 @import "compass_twitter_bootstrap";
 
 html{
-  background-color: $grayLighter;
+  background-image: url('/images/black-Linen.png');
+  background-image: fixed!important;
+  background: url('/images/black-Linen.png') fixed center;
 }
 
 .container {
-  margin-top: 60px;
-  margin-bottom: 20px;
-  padding: 40px 40px;
-  background-color: #ffffff;
-  -webkit-box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.06) inset, 0 0 0 1px rgba(0, 0, 0, 0.2);
+  color: rgba(214, 210, 219, 0.47);
+  font-family: "Whitney SSm A", "Whitney SSm B", Helvetica, Arial, sans-serif;
+  margin: 5%;
+  padding: 10%;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: none;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  /*padding: 40px 40px;*/
+ /*-webkit-box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.06) inset, 0 0 0 1px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.06) inset, 0 0 0 1px rgba(0, 0, 0, 0.2);
-  box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.06) inset, 0 0 0 1px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 1px 1px 0 rgba(0,0,0,.1),inset 0 -1px 0 rgba(0,0,0,.07);
+  webkit-border-image: none;
+  border-width: 1px 1px 1px 6px;*/
+   /*-webkit-box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.06) inset, 0 0 0 1px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.06) inset, 0 0 0 1px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 0 0 4px rgba(0, 0, 0, 0.06) inset, 0 -1px 0 rgba(0, 0, 0, 0.2);*/
+
 }
 
 header{
@@ -46,7 +61,8 @@ section{
 
 footer{
   text-align: center;
-  color: $grayLight;
+  color: rgba(214, 210, 219, 0.47);
+  font-family: "Whitney SSm A", "Whitney SSm B", Helvetica, Arial, sans-serif;
   margin-bottom: 20px;
 }
 
@@ -63,3 +79,4 @@ footer{
     display: none;
   }
 }
+
