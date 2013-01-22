@@ -1,16 +1,14 @@
 @import "compass_twitter_bootstrap";
 
-html{
+html header footer body{
   background-image: url('/images/black-Linen.png');
   background-image: fixed!important;
-  background: url('/images/black-Linen.png') fixed center;
+  background: url('images/black-Linen.png') fixed center repeat;
 }
 
 .container {
   color: rgba(214, 210, 219, 0.47);
   font-family: "Whitney SSm A", "Whitney SSm B", Helvetica, Arial, sans-serif;
-  margin: 5%;
-  padding: 10%;
   border: 0;
   font-size: 100%;
   vertical-align: baseline;
@@ -31,9 +29,11 @@ html{
 
 header{
   padding-bottom: 5px;
+  background: url('images/black-linen.png') fixed center repeat;
   .source{
     margin-top:45px;
-    float:right;
+    float:right
+    ;
   }
 }
 
